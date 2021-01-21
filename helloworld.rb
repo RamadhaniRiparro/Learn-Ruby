@@ -17,3 +17,5 @@ print "i learn computer "
 print "i should study mathematic "
 puts "helo andi "
 print "breakfast with Hamburger "
+
+puts :makan
