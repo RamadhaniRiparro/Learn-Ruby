@@ -14,7 +14,7 @@ class Menu
 	def get_total_price (count)
 		total_price = self.price * count
 		if count >= 5
-			total_price = (((total_price * 10) / 100) - total_price)
+			total_price = (total_price * 90) / 100
 		end
 		return total_price
 	end
