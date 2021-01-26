@@ -22,7 +22,7 @@ order = gets.chomp.to_i
 choosed_menu = menus[order]
 
 puts "you have choosed: #{choosed_menu.name}"
-puts "How many ? (buy 3 or more for $1 discount)"
+puts "How many ? (buy 5 or more for 10% discount)"
 
 count = gets.chomp.to_i
 puts "You should pay #{choosed_menu.get_total_price(count)}"
